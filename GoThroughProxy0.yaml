@@ -6,5 +6,6 @@ payload:
   - DOMAIN-KEYWORD,stackoverflow
   - DOMAIN-KEYWORD,phrasebank
   - DOMAIN-KEYWORD,v2ex
+  - DOMAIN-KEYWORD,z-lib
   - DOMAIN-SUFFIX,functional.events.data.microsoft.com
   - DOMAIN-SUFFIX,figma.com
