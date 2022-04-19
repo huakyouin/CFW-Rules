@@ -7,4 +7,4 @@ payload:
   - DOMAIN-KEYWORD,phrasebank
   - DOMAIN-KEYWORD,v2ex
   - DOMAIN-SUFFIX,functional.events.data.microsoft.com
-  - DOMAIN-SUFFIX,figma.com,🔰国外流量
+  - DOMAIN-SUFFIX,figma.com
