@@ -1,8 +1,6 @@
 # clash-rules
 自用clash规则
 
-## 更新规则手动刷新缓存
-https://purge.jsdelivr.net/gh/huakyouin/clash-rules@main/GoThroughProxy0.yaml
 
 ## 订阅源右键parser设置修改成如下
 
@@ -17,6 +15,6 @@ parsers: # array
       mine: # 需要代理的常见软件列表
         type: http
         behavior: classical
-        url: "https://cdn.jsdelivr.net/gh/huakyouin/clash-rules@main/GoThroughProxy0.yaml"
+        url: "https://github.com/huakyouin/clash-rules/blob/main/GoThroughProxy0.yaml"
         path: ./ruleset/mine.yaml
         interval: 300
