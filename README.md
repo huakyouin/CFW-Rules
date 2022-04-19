@@ -1,7 +1,7 @@
 # clash-rules
 自用clash规则
 
-## 更新规则手动刷新镜像
+## 更新规则手动刷新缓存
 https://purge.jsdelivr.net/gh/huakyouin/clash-rules@main/GoThroughProxy0.yaml
 
 ## 订阅源右键parser设置修改成如下
