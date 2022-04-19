@@ -1,7 +1,7 @@
 # clash-rules
 自用clash规则
 
-## 订阅parser设置
+## 订阅源右键parser设置修改成如下
 
 ```
 parsers: # array
@@ -9,7 +9,7 @@ parsers: # array
 - reg: ^.*$
   yaml:
     prepend-rules:
-      - RULE-SET,mine,🔰国外流量
+      - RULE-SET,mine,🔰国外流量   # ‘🔰国外流量’ 是我订阅源中的代理分组名字
     mix-rule-providers:
       mine: # 需要代理的常见软件列表
         type: http
