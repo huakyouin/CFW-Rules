@@ -16,4 +16,4 @@ parsers: # array
         behavior: classical
         url: "https://cdn.jsdelivr.net/gh/huakyouin/clash-rules@main/GoThroughProxy0.yaml"
         path: ./ruleset/mine.yaml
-        interval: 86400
+        interval: 960
