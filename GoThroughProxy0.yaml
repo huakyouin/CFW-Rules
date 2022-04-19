@@ -1,11 +1,12 @@
 payload:
   - DOMAIN-KEYWORD,1lib
+  - DOMAIN-KEYWORD,z-lib
+  - DOMAIN-KEYWORD,zlibcdn
   - DOMAIN-KEYWORD,libgen
   - DOMAIN-KEYWORD,stardream
   - DOMAIN-KEYWORD,workona
   - DOMAIN-KEYWORD,stackoverflow
   - DOMAIN-KEYWORD,phrasebank
   - DOMAIN-KEYWORD,v2ex
-  - DOMAIN-KEYWORD,z-lib
   - DOMAIN-SUFFIX,functional.events.data.microsoft.com
   - DOMAIN-SUFFIX,figma.com
