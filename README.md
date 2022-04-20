@@ -15,6 +15,6 @@ parsers: # array
       mine: # 需要代理的常见软件列表
         type: http
         behavior: classical
-        url: "https://gh.api.99988866.xyz/github.com/huakyouin/clash-rules/blob/main/GoThroughProxy0.yaml"
+        url: "https://raw.githubusercontent.com/huakyouin/clash-rules/main/GoThroughProxy0.yaml"
         path: ./ruleset/mine.yaml
         interval: 240
