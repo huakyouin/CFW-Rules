@@ -8,9 +8,10 @@ payload:
   - DOMAIN-KEYWORD,stardream
   - DOMAIN-KEYWORD,workona
   - DOMAIN-KEYWORD,stackoverflow
-  - DOMAIN-KEYWORD,phrasebank
   - DOMAIN-KEYWORD,v2ex
   - DOMAIN-SUFFIX,events.data.microsoft.com
   - DOMAIN-SUFFIX,figma.com
   # 学术网站
   - DOMAIN-KEYWORD,arxiv
+  - DOMAIN-KEYWORD,paperswithcode
+  - DOMAIN-KEYWORD,phrasebank
