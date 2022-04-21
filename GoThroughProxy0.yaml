@@ -1,8 +1,10 @@
 payload:
+  # 电子图书馆
   - DOMAIN-KEYWORD,1lib
   - DOMAIN-KEYWORD,z-lib
   - DOMAIN-KEYWORD,zlibcdn
   - DOMAIN-KEYWORD,libgen
+  # 一些辅助网站
   - DOMAIN-KEYWORD,stardream
   - DOMAIN-KEYWORD,workona
   - DOMAIN-KEYWORD,stackoverflow
@@ -10,3 +12,5 @@ payload:
   - DOMAIN-KEYWORD,v2ex
   - DOMAIN-SUFFIX,events.data.microsoft.com
   - DOMAIN-SUFFIX,figma.com
+  # 学术网站
+  - DOMAIN-KEYWORD,arxiv
