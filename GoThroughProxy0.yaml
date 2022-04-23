@@ -4,8 +4,10 @@ payload:
   - DOMAIN-KEYWORD,z-lib
   - DOMAIN-KEYWORD,zlibcdn
   - DOMAIN-KEYWORD,libgen
-  # 一些辅助网站
+  # 国外机场
   - DOMAIN-KEYWORD,stardream
+  - DOMAIN-KEYWORD,julang
+  # 一些辅助网站
   - DOMAIN-KEYWORD,workona
   - DOMAIN-KEYWORD,stackoverflow
   - DOMAIN-KEYWORD,v2ex
@@ -15,3 +17,6 @@ payload:
   - DOMAIN-KEYWORD,arxiv
   - DOMAIN-KEYWORD,paperswithcode
   - DOMAIN-KEYWORD,phrasebank
+  # 游戏相关网站
+  - DOMAIN-KEYWORD,steamstatic
+  
