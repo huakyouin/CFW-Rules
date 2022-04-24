@@ -17,6 +17,6 @@ payload:
   - DOMAIN-KEYWORD,arxiv
   - DOMAIN-KEYWORD,paperswithcode
   - DOMAIN-KEYWORD,phrasebank
+  - DOMAIN-KEYWORD,paperdigest
   # 游戏相关网站
   - DOMAIN-KEYWORD,steamstatic
-  
