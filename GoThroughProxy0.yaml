@@ -13,6 +13,7 @@ payload:
   - DOMAIN-KEYWORD,v2ex
   - DOMAIN-SUFFIX,events.data.microsoft.com
   - DOMAIN-SUFFIX,figma.com
+  - DOMAIN-SUFFIX,alexlenail
   # 学术网站
   - DOMAIN-KEYWORD,arxiv
   - DOMAIN-KEYWORD,paperswithcode
