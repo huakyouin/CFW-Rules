@@ -14,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,events.data.microsoft.com
   - DOMAIN-SUFFIX,figma.com
   - DOMAIN-SUFFIX,alexlenail
+  - DOMAIN-KEYWORD,pdf24
   # 学术网站
   - DOMAIN-KEYWORD,arxiv
   - DOMAIN-KEYWORD,paperswithcode
