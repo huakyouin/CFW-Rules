@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,figma.com
   - DOMAIN-SUFFIX,alexlenail
   - DOMAIN-KEYWORD,pdf24
+  - DOMAIN-SUFFIX,typora.io
   # 学术网站
   - DOMAIN-KEYWORD,arxiv
   - DOMAIN-KEYWORD,paperswithcode
