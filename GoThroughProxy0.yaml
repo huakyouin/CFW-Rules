@@ -21,5 +21,6 @@ payload:
   - DOMAIN-KEYWORD,paperswithcode
   - DOMAIN-KEYWORD,phrasebank
   - DOMAIN-KEYWORD,paperdigest
+  - DOMAIN-KEYWORD,cocodataset
   # 游戏相关网站
   - DOMAIN-KEYWORD,steamstatic
