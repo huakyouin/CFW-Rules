@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,alexlenail
   - DOMAIN-KEYWORD,pdf24
   - DOMAIN-SUFFIX,typora.io
+  - DOMAIN-KEYWORD,dropbox
   # 学术网站
   - DOMAIN-KEYWORD,arxiv
   - DOMAIN-KEYWORD,paperswithcode
