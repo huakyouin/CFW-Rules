@@ -23,6 +23,7 @@ payload:
   - DOMAIN-KEYWORD,phrasebank
   - DOMAIN-KEYWORD,paperdigest
   - DOMAIN-KEYWORD,cocodataset
+  - DOMAIN-KEYWORD,socialcomputing
   - DOMAIN-SUFFIX,s3.amazonaws.com
   # 游戏相关网站
   - DOMAIN-KEYWORD,steamstatic
