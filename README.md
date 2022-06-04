@@ -10,11 +10,11 @@ parsers: # array
 - reg: ^.*$
   yaml:
     prepend-rules:
-      - RULE-SET,mine,🔰国外流量   # ‘🔰国外流量’ 是我订阅源中的代理分组名字
+      - RULE-SET,MyRules,魔戒.net   # 魔戒.net、‘🔰国外流量’ 等是我订阅源中的代理分组名字
     mix-rule-providers:
       mine: # 需要代理的常见软件列表
         type: http
         behavior: classical
         url: "https://raw.githubusercontent.com/huakyouin/clash-rules/main/GoThroughProxy0.yaml"
-        path: ./ruleset/mine.yaml
+        path: ./MyRules.yaml
         interval: 240
