@@ -10,7 +10,7 @@ parsers: # array
 - reg: ^.*$
   yaml:
     prepend-rules:
-      - RULE-SET,MyRules,魔戒.net   # 魔戒.net、‘🔰国外流量’ 等是我订阅源中的代理分组名字
+      - RULE-SET,MyRules,魔戒.net   # 魔戒.net、🔰国外流量等是我订阅源中的代理分组名字
     mix-rule-providers:
       mine: # 需要代理的常见软件列表
         type: http
