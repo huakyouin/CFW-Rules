@@ -10,7 +10,7 @@ parsers: # array
 - reg: ^.*$
   yaml:
     prepend-rules:
-      - RULE-SET,MyRules,$走国外代理的分组名称$   # $$内部需要按自己订阅修改
+      - RULE-SET,MyRules,{走国外代理的分组名称}   # {}部分需要按自己订阅修改，最后不包含括号
     mix-rule-providers:
       mine: # 需要代理的常见软件列表
         type: http
