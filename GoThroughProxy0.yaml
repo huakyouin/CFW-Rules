@@ -9,6 +9,7 @@ payload:
   - DOMAIN-KEYWORD,julang
   # 一些辅助网站
   - DOMAIN-KEYWORD,workona
+  - DOMAIN-KEYWORD,githubusercontent
   - DOMAIN-KEYWORD,stackoverflow
   - DOMAIN-KEYWORD,v2ex
   - DOMAIN-SUFFIX,events.data.microsoft.com
