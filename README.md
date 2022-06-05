@@ -10,11 +10,11 @@ parsers: # array
 - reg: ^.*$
   yaml:
     prepend-rules:
-      - RULE-SET,jxhrule,魔戒.net  # 第三个元素需要按自己订阅修改
+      - RULE-SET,mine,魔戒.net  # 第三个元素需要按自己订阅修改
     mix-rule-providers:
       mine: # 需要代理的常见软件列表
         type: http
         behavior: classical
         url: "https://raw.githubusercontent.com/huakyouin/clash-rules/main/GoThroughProxy0.yaml"
-        path: ./jxhrule.yaml
+        path: ./ruleset/jxhrule.yaml
         interval: 240
