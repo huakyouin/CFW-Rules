@@ -15,6 +15,7 @@ parsers: # array
       jxhrule: # 需要代理的常见软件列表
         type: http
         behavior: classical
-        url: "https://raw.githubusercontent.com/huakyouin/clash-rules/main/GoThroughProxy0.yaml"
+        # url: "https://raw.githubusercontent.com/huakyouin/clash-rules/main/GoThroughProxy0.yaml"
+        url: "https://cdn.jsdelivr.net/gh/huakyouin/clash-rules/main/GoThroughProxy0.yaml"
         path: ./ruleset/jxhrule.yaml
         interval: 240
