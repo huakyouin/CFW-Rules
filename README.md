@@ -33,6 +33,7 @@ parsers: # array
 dns:
   enable: true
   nameserver:
+    - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   # 提供 fallback 时，如果GEOIP非 CN 中国时使用 fallback 解析
   fallback:
