@@ -19,13 +19,13 @@ parsers: # array
         url: "https://raw.githubusercontent.com/huakyouin/clash-rules/main/GoThroughProxy0.yaml"
         # url: "https://cdn.jsdelivr.net/gh/huakyouin/clash-rules/main/GoThroughProxy0.yaml"
         path: ./ruleset/jxhrule.yaml
-        interval: 240
+        interval: 86400
       jxhrule2: # 不需代理的常见软件列表
         type: http
         behavior: classical
         url: "https://raw.githubusercontent.com/huakyouin/clash-rules/main/GoDirect.yaml"
         path: ./ruleset/jxhrule2.yaml
-        interval: 240
+        interval: 86400
 ```
 
 ## clash Home文件夹下config.yaml添加下述防止DNS污染
