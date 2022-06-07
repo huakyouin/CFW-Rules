@@ -5,20 +5,23 @@ payload:
   - DOMAIN-KEYWORD,z-lib
   - DOMAIN-KEYWORD,zlibcdn
   - DOMAIN-KEYWORD,libgen
+  
   # 国外机场
   - DOMAIN-KEYWORD,stardream
   - DOMAIN-KEYWORD,julang
   # 一些辅助网站
+  
   - DOMAIN-KEYWORD,workona
   - DOMAIN-KEYWORD,githubusercontent
   - DOMAIN-KEYWORD,stackoverflow
   - DOMAIN-KEYWORD,v2ex
-  - DOMAIN-SUFFIX,events.data.microsoft.com
+  # - DOMAIN-SUFFIX,events.data.microsoft.com
   - DOMAIN-SUFFIX,figma.com
   - DOMAIN-SUFFIX,alexlenail
   - DOMAIN-KEYWORD,pdf24
   - DOMAIN-SUFFIX,typora.io
   - DOMAIN-KEYWORD,dropbox
+  
   # 学术网站
   - DOMAIN-KEYWORD,arxiv
   - DOMAIN-KEYWORD,paperswithcode
@@ -27,5 +30,6 @@ payload:
   - DOMAIN-KEYWORD,cocodataset
   - DOMAIN-KEYWORD,socialcomputing
   - DOMAIN-SUFFIX,s3.amazonaws.com
+  
   # 游戏相关网站
   - DOMAIN-KEYWORD,steamstatic
