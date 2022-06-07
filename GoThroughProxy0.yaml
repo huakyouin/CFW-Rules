@@ -1,6 +1,7 @@
 payload:
   # 电子图书馆
   # - DOMAIN-KEYWORD,1lib
+  - DOMAIN-KEYWORD,zh.zlibrary
   - DOMAIN-KEYWORD,z-lib
   - DOMAIN-KEYWORD,zlibcdn
   - DOMAIN-KEYWORD,libgen
