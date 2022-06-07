@@ -11,13 +11,20 @@ parsers: # array
   yaml:
     prepend-rules:
       - RULE-SET,jxhrule,魔戒.net  # 第三个元素需要按自己订阅修改
+      - RULE-SET,jxhrule2,DIRECT   # 不用走代理的一些网站
     mix-rule-providers:
       jxhrule: # 需要代理的常见软件列表
         type: http
         behavior: classical
-        # url: "https://raw.githubusercontent.com/huakyouin/clash-rules/main/GoThroughProxy0.yaml"
-        url: "https://cdn.jsdelivr.net/gh/huakyouin/clash-rules/main/GoThroughProxy0.yaml"
+        url: "https://raw.githubusercontent.com/huakyouin/clash-rules/main/GoThroughProxy0.yaml"
+        # url: "https://cdn.jsdelivr.net/gh/huakyouin/clash-rules/main/GoThroughProxy0.yaml"
         path: ./ruleset/jxhrule.yaml
+        interval: 240
+      jxhrule2: # 不需代理的常见软件列表
+        type: http
+        behavior: classical
+        url: "https://raw.githubusercontent.com/huakyouin/clash-rules/main/GoDirect.yaml"
+        path: ./ruleset/jxhrule2.yaml
         interval: 240
 ```
 
