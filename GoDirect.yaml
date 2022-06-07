@@ -1,1 +1,3 @@
-123
+payload:
+  # 机场
+  - DOMAIN-KEYWORD,mojie
