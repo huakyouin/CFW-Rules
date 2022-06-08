@@ -1,6 +1,8 @@
 # clash-rules
 自用clash规则
 
+小提一嘴，我已经回归v2rayN了，win11在某次clash更新后启动一会就与核心断开连接，不知道是跟我的环境交互了什么bug，重装将版本也没用，重置winsock也没用
+
 
 ## 订阅源右键parser设置修改成如下
 
