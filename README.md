@@ -54,5 +54,6 @@ bypass:
   - "baidu.com" # 百度
   - "csdn.net" # CSDN
   - "zhihu.com" # 知乎
+  - "alicdn.com" # 阿里转发
 ```
 
