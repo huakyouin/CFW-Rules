@@ -42,7 +42,7 @@ parsers: # array
 
 - 日志里经常出现timeout导致代理堵塞
 
-客户端->setting->system proxy(系统代理)->第二行（绕过域/网络）点击编辑，按下面格式添加timeout的域名或ip
+客户端->setting->system proxy(系统代理)->第二行（绕过域/网络）点击编辑，按下面格式添加日志中timeout网站的域名或ip
 
 ```
 bypass:
