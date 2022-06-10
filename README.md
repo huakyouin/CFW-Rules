@@ -36,6 +36,39 @@ parsers: # array
 - 现在在用[翻墙机场](https://xn--mest5a943ag8x.net/#/knowledge)，3r/月，目前还不错
 
 ## Issue
-- 频繁核心熄火，表现经常代理一会后日志不更新、客户端各种修改设置的按钮能点但是无动于衷
+- 核心与订阅不兼容
 
 [参考这篇文章降级核心](https://matters.news/@looklookworld/57425-%E6%9C%80%E8%AF%A6%E7%BB%86clash-r%E6%95%99%E7%A8%8B-clash-x%E6%95%99%E7%A8%8B-clash-a-clash-web-pharos-pro-%E5%A4%9A%E5%B9%B3%E5%8F%B0%E7%89%88%E6%9C%AC-bafyreibrj4m6z6ttojc3yqiurz767wlphrkqkoymvpldtx2rzsm6tse7uy)
+
+- 日志里经常出现timeout导致代理堵塞
+
+客户端->setting->system proxy(系统代理)->第二行（绕过域/网络）点击编辑，按下面格式添加timeout的域名或ip
+
+```
+bypass:
+  - localhost
+  - 127.*
+  - 10.*
+  - 172.16.*
+  - 172.17.*
+  - 172.18.*
+  - 172.19.*
+  - 172.20.*
+  - 172.21.*
+  - 172.22.*
+  - 172.23.*
+  - 172.24.*
+  - 172.25.*
+  - 172.26.*
+  - 172.27.*
+  - 172.28.*
+  - 172.29.*
+  - 172.30.*
+  - 172.31.*
+  - 192.168.*
+  - <local>
+  - 127.0.0.1
+  - "bilibili.com" # 哔哩哔哩
+  - "raw.githubusercontent.com" # github 用户内容
+```
+
