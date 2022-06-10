@@ -36,11 +36,11 @@ parsers: # array
 - 现在在用[翻墙机场](https://xn--mest5a943ag8x.net/#/knowledge)，3r/月，目前还不错
 
 ## Issue
-#### # 1 核心与订阅不兼容
+#### # 1：核心与订阅不兼容
 
 参考[这篇文章](https://matters.news/@looklookworld/57425-%E6%9C%80%E8%AF%A6%E7%BB%86clash-r%E6%95%99%E7%A8%8B-clash-x%E6%95%99%E7%A8%8B-clash-a-clash-web-pharos-pro-%E5%A4%9A%E5%B9%B3%E5%8F%B0%E7%89%88%E6%9C%AC-bafyreibrj4m6z6ttojc3yqiurz767wlphrkqkoymvpldtx2rzsm6tse7uy)降级核心
 
-#### # 2 日志里经常出现timeout导致代理堵塞
+#### # 2：日志里经常出现timeout导致代理堵塞
 
 客户端->setting->system proxy(系统代理)->第二行（绕过域/网络）点击编辑，按下面格式添加日志中timeout网站的域名或ip
 
