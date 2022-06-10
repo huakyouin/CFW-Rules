@@ -49,7 +49,10 @@ bypass:
   - localhost
   - 127.*
   - 127.0.0.1
+  # 国内常见直接绕过
   - "bilibili.com" # 哔哩哔哩
-  - "raw.githubusercontent.com" # github 用户内容
+  - "baidu.com" # 百度
+  - "csdn.net" # CSDN
+  - "zhihu.com" # 知乎
 ```
 
