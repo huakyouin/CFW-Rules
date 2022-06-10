@@ -44,6 +44,8 @@ parsers: # array
 
 客户端->setting->system proxy(系统代理)->第二行（绕过域/网络）点击编辑，按下面格式添加日志中timeout网站的域名或ip
 
+管理员终端`netsh winsock reset`，重启电脑和路由器
+
 ```
 bypass:
   - localhost
