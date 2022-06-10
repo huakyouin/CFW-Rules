@@ -32,8 +32,8 @@ parsers: # array
 
 ## 评价
 - [星梦数据机场](https://stardream.xyz/user)涨价了，8r/月，在自定义规则后表现尚可，但我没续费了
-- [魔戒机场](https://www.mojie.cyou/)按量计价量大管饱0.1r/1G，但是不太稳定
-- 现在在用[翻墙机场](https://xn--mest5a943ag8x.net/#/knowledge)，3r/月，目前还不错
+- [魔戒机场](https://www.mojie.cyou/)按量计价量大管饱，0.1r/1G，但是不太稳定
+- [翻墙机场](https://xn--mest5a943ag8x.net/#/knowledge)目前在用，3r/月，目前还不错
 
 ## Issue
 #### # 1：核心与订阅不兼容
