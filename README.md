@@ -2,7 +2,9 @@
 自用clash规则
 
 
-## 订阅源右键parser设置修改成如下(星梦数据机场适用)
+## 订阅源右键parser设置修改成如下
+
+Note：星梦数据机场适用
 
 ```
 parsers: # array
