@@ -32,5 +32,10 @@ parsers: # array
 
 ## 评价
 - 星梦数据机场涨价了，8r/月，在自定义规则后表现尚可，但我没续费了
-- 魔戒机场按量计价量大管饱0.1r/1G，但是配置文件冲突严重，导致我clash和v2ray核心频繁熄火，无法电脑长期开启，备选
-- 现在在用翻墙机场，3r/月，待评价
+- 魔戒机场按量计价量大管饱0.1r/1G，但是不太稳定
+- 现在在用[翻墙机场](https://xn--mest5a943ag8x.net/#/knowledge)，3r/月，目前还不错
+
+## Issue
+- 频繁核心熄火，表现经常代理一会后日志不更新、客户端各种修改设置的按钮能点但是无动于衷
+
+[参考这篇文章降级核心](https://matters.news/@looklookworld/57425-%E6%9C%80%E8%AF%A6%E7%BB%86clash-r%E6%95%99%E7%A8%8B-clash-x%E6%95%99%E7%A8%8B-clash-a-clash-web-pharos-pro-%E5%A4%9A%E5%B9%B3%E5%8F%B0%E7%89%88%E6%9C%AC-bafyreibrj4m6z6ttojc3yqiurz767wlphrkqkoymvpldtx2rzsm6tse7uy)
