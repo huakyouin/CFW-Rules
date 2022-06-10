@@ -1,10 +1,8 @@
 # clash-rules
-自用clash规则(for 星梦数据)
-
-小提一嘴，我已经回归v2rayN了，win11在某次clash更新后启动一会就与核心断开连接，不知道是跟我的环境交互了什么bug，重装将版本也没用，重置winsock也没用
+自用clash规则
 
 
-## 订阅源右键parser设置修改成如下
+## 订阅源右键parser设置修改成如下(星梦数据机场适用)
 
 ```
 parsers: # array
@@ -29,3 +27,8 @@ parsers: # array
         path: ./ruleset/jxhrule2.yaml
         interval: 86400
 ```
+
+## 评价
+- 星梦数据机场涨价了，8r/月，在自定义规则后表现尚可，但我没续费了
+- 魔戒机场按量计价量大管饱0.1r/1G，但是配置文件冲突严重，导致我clash和v2ray核心频繁熄火，无法电脑长期开启，备选
+- 现在在用翻墙机场，3r/月，待评价
