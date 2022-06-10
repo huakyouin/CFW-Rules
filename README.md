@@ -1,5 +1,5 @@
 # clash-rules
-自用clash规则
+自用clash规则(for 星梦数据)
 
 小提一嘴，我已经回归v2rayN了，win11在某次clash更新后启动一会就与核心断开连接，不知道是跟我的环境交互了什么bug，重装将版本也没用，重置winsock也没用
 
@@ -28,27 +28,4 @@ parsers: # array
         url: "https://raw.githubusercontent.com/huakyouin/clash-rules/main/GoDirect.yaml"
         path: ./ruleset/jxhrule2.yaml
         interval: 86400
-```
-
-## clash Home文件夹下config.yaml添加下述防止DNS污染
-```
-dns:
-  enable: true # 启用自定义DNS
-  ipv6: false # default is false
-  listen: 0.0.0.0:1053
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
-  default-nameserver:
-    - 180.76.76.76
-    - 223.5.5.5
-    - 119.29.29.29
-  nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-
-  fallback:
-    - tls://1.1.1.1:853
-    - tls://1.0.0.1:853
-    - 101.6.6.6:5353
-
 ```
