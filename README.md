@@ -36,17 +36,17 @@ parsers: # array
 - [翻墙机场](https://xn--mest5a943ag8x.net/#/knowledge)目前在用，3r/月，目前还不错
 
 ## Issue
-#### # 1：核心与订阅不兼容
+我遇到了这样的问题：clash启动一会后随着某个联网需求产生，突然失去与clash core的链接
 
-参考[这篇文章](https://matters.news/@looklookworld/57425-%E6%9C%80%E8%AF%A6%E7%BB%86clash-r%E6%95%99%E7%A8%8B-clash-x%E6%95%99%E7%A8%8B-clash-a-clash-web-pharos-pro-%E5%A4%9A%E5%B9%B3%E5%8F%B0%E7%89%88%E6%9C%AC-bafyreibrj4m6z6ttojc3yqiurz767wlphrkqkoymvpldtx2rzsm6tse7uy)降级核心
+目前已尝试：
 
-#### # 2：日志里经常出现timeout导致代理堵塞
+1. 降级核心【无效】
 
-客户端->setting->system proxy(系统代理)->第二行（绕过域/网络）点击编辑，按下面格式添加日志中timeout网站的域名或ip
+参考[这篇文章](https://matters.news/@looklookworld/57425-%E6%9C%80%E8%AF%A6%E7%BB%86clash-r%E6%95%99%E7%A8%8B-clash-x%E6%95%99%E7%A8%8B-clash-a-clash-web-pharos-pro-%E5%A4%9A%E5%B9%B3%E5%8F%B0%E7%89%88%E6%9C%AC-bafyreibrj4m6z6ttojc3yqiurz767wlphrkqkoymvpldtx2rzsm6tse7uy)
 
-以管理员打开终端输入`netsh winsock reset`，然后重启电脑和路由器
+2. 重置电脑与路由器一些可以安全修改的网络设置【无效】
 
-或者可能是客户端权限不够，任务浏览器里找到CFW的exe文件和clash-win64.exe打开路径，右键兼容性勾选管理员启动
+客户端左侧`setting`->`system proxy`(系统代理)->第二行`绕过域/网络`点击`edit`，按下面格式添加日志中timeout网站的域名或ip
 
 ```
 bypass:
@@ -61,4 +61,16 @@ bypass:
   - "alicdn.com" # 阿里转发
   - "weixin.qq.com" # 微信客户端
 ```
+
+以管理员打开终端输入`netsh winsock reset`，然后重启电脑和路由器
+
+3. 给客户端网络权限【无效】
+
+任务浏览器里找到CFW的exe文件和clash-win64.exe打开路径，右键兼容性勾选管理员启动
+
+4. 防火墙检查【待验证】
+
+`xindows键`->搜索`控制面板`->`系统和安全`->`Windows Defender防火墙`->左侧`高级设置`->`入站规则`->检查clash相关权限
+
+
 
