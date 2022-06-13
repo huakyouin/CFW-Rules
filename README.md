@@ -62,7 +62,7 @@ bypass:
   - "weixin.qq.com" # 微信客户端
 ```
 
-以管理员打开终端输入`netsh winsock reset`，然后重启电脑和路由器
+右键windows图标以管理员打开终端输入`netsh winsock reset`，然后重启电脑和路由器
 
 ### 3. 给客户端网络权限【无效】
 
