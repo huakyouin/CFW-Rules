@@ -46,6 +46,8 @@ parsers: # array
 
 以管理员打开终端输入`netsh winsock reset`，然后重启电脑和路由器
 
+或者可能是客户端权限不够，任务浏览器里找到CFW的exe文件和clash-win64.exe打开路径，右键兼容性勾选管理员启动
+
 ```
 bypass:
   - localhost
@@ -57,5 +59,6 @@ bypass:
   - "csdn.net" # CSDN
   - "zhihu.com" # 知乎
   - "alicdn.com" # 阿里转发
+  - "weixin.qq.com" # 微信客户端
 ```
 
