@@ -40,11 +40,11 @@ parsers: # array
 
 目前已尝试：
 
-1. 降级核心【无效】
+### 1. 降级核心【无效】
 
 参考[这篇文章](https://matters.news/@looklookworld/57425-%E6%9C%80%E8%AF%A6%E7%BB%86clash-r%E6%95%99%E7%A8%8B-clash-x%E6%95%99%E7%A8%8B-clash-a-clash-web-pharos-pro-%E5%A4%9A%E5%B9%B3%E5%8F%B0%E7%89%88%E6%9C%AC-bafyreibrj4m6z6ttojc3yqiurz767wlphrkqkoymvpldtx2rzsm6tse7uy)
 
-2. 重置电脑与路由器一些可以安全修改的网络设置【无效】
+### 2. 重置电脑与路由器一些可以安全修改的网络设置【无效】
 
 客户端左侧`setting`->`system proxy`(系统代理)->第二行`绕过域/网络`点击`edit`，按下面格式添加日志中timeout网站的域名或ip
 
@@ -64,11 +64,11 @@ bypass:
 
 以管理员打开终端输入`netsh winsock reset`，然后重启电脑和路由器
 
-3. 给客户端网络权限【无效】
+### 3. 给客户端网络权限【无效】
 
 任务浏览器里找到CFW的exe文件和clash-win64.exe打开路径，右键兼容性勾选管理员启动
 
-4. 防火墙检查【待验证】
+### 4. 防火墙检查【待验证】
 
 `xindows键`->搜索`控制面板`->`系统和安全`->`Windows Defender防火墙`->左侧`高级设置`->`入站规则`->检查clash相关权限
 
