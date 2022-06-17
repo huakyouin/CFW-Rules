@@ -1,5 +1,12 @@
 payload:
   # 机场
   - DOMAIN-KEYWORD,mojie
-  
+  # steam直连部分
+  - steampowered.com
+  - steamcommunity.com
+  - steamgames.com
+  - steamusercontent.com
+  - steamcontent.com
+  - steamstatic.com
+  - akamaihd.net
   
