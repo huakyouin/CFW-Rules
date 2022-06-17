@@ -28,7 +28,7 @@ parsers: # array
         path: ./ruleset/jxhrule2.yaml
         interval: 86400
     commands:
-      - dns.enable=false                      # 不使用订阅中的dns
+      - dns.enable=false                      # 不使用订阅中的dns 防止时不时断开
       - external-controller=127.0.0.1:12339     # 按自己的core端口调整
 ```
 
@@ -36,51 +36,6 @@ parsers: # array
 - [星梦数据机场](https://stardream.xyz/user)涨价了，8r/月，在自定义规则后表现尚可，但我没续费了
 - [魔戒机场](https://www.mojie.cyou/)按量计价量大管饱，0.1r/1G，但是不太稳定
 - [翻墙机场](https://xn--mest5a943ag8x.net/#/knowledge)目前在用，3r/月，目前还不错
-
-## Issue
-我遇到了这样的问题：clash启动一会后随着某个联网需求产生，突然失去与clash core的链接
-
-目前已尝试：
-
-### 1. 降级核心【无效】
-
-参考[这篇文章](https://matters.news/@looklookworld/57425-%E6%9C%80%E8%AF%A6%E7%BB%86clash-r%E6%95%99%E7%A8%8B-clash-x%E6%95%99%E7%A8%8B-clash-a-clash-web-pharos-pro-%E5%A4%9A%E5%B9%B3%E5%8F%B0%E7%89%88%E6%9C%AC-bafyreibrj4m6z6ttojc3yqiurz767wlphrkqkoymvpldtx2rzsm6tse7uy)
-
-### 2. 重置电脑与路由器一些可以安全修改的网络设置【无效】
-
-客户端左侧`setting`->`system proxy`(系统代理)->第二行`绕过域/网络`点击`edit`，按下面格式添加日志中timeout网站的域名或ip
-
-```
-bypass:
-  - localhost
-  - 127.*
-  - 127.0.0.1
-  # 国内常见直接绕过
-  - "bilibili.com" # 哔哩哔哩
-  - "baidu.com" # 百度
-  - "csdn.net" # CSDN
-  - "zhihu.com" # 知乎
-  - "alicdn.com" # 阿里转发
-  - "weixin.qq.com" # 微信客户端
-```
-
-右键windows图标以管理员打开终端输入`netsh winsock reset`，然后重启电脑和路由器
-
-### 3. 给客户端网络权限【无效】
-
-任务浏览器里找到CFW的exe文件和clash-win64.exe打开路径，右键兼容性勾选管理员启动
-
-### 4. 防火墙检查【无效】
-
-`xindows键`->搜索`控制面板`->`系统和安全`->`Windows Defender防火墙`->左侧`高级设置`->`入站规则`->检查clash相关权限
-
-### 5. 清除浏览器cookies和证书【无效】
-
-因为我每次断网只断浏览器，所以可能是浏览器的锅，设置中清除`cookies`和`媒体基础数据`
-
-### 6. 禁止订阅中的DNS设置【有效】
-
-详见上文中parser设置中的`commands`部分
 
 
 
