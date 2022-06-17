@@ -34,7 +34,8 @@ parsers: # array
 
 ## 设置--系统代理--绕过域设置如下
 
-因为clash即使直连延迟也不如不开代理时
+因为clash即使直连延迟也不如不开代理时，或者使用PAC模式
+
 ```
 bypass:
   - localhost
