@@ -26,6 +26,8 @@ parsers: # array
         type: http
         behavior: classical
         url: "https://raw.githubusercontent.com/huakyouin/clash-rules/main/GoDirect.yaml"
+        url: "https://cdn.jsdelivr.net/gh/huakyouin/clash-rules@main/GoDirect.yaml"
+        
         path: ./ruleset/jxhrule2.yaml
         interval: 86400
 ```
