@@ -49,7 +49,7 @@ bypass:
 ## 评价
 - [星梦数据机场](https://stardream.xyz/user)，8r/月，☆
 - [魔戒机场](https://www.mojie.cyou/)，0.1r/1G，☆☆
-- [nano](https://v3.nanoport.xyz/#/dashboard)，目前在试大盘鸡套餐
+- [nano机场](https://v3.nanoport.xyz/#/dashboard)，目前在试大盘鸡套餐
 
 
 
