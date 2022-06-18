@@ -10,6 +10,27 @@ parsers: # array
 # - reg: ^.*$ # 匹配所有订阅
 # 自己订阅的网址
 - url: https://subv2.nanoport.xyz/api/v1/client/subscribe?token=bd6477706f3d605e176258d51788c715 
+  code: |
+    module.exports.parse = async (raw, { axios, yaml, notify, console }, { name, url, interval, selected }) => {
+      const obj = yaml.parse(raw)
+      obj.proxies.forEach( v => {
+          if (v.network === 'ws' && !v['ws-opts'] && v['ws-path'] && !v['ws-headers']) {
+            const opts = {}
+            opts.path = v['ws-path']
+            v['ws-opts'] = opts
+            delete v['ws-path']
+          }
+          if (v.network === 'ws' && !v['ws-opts'] && v['ws-path'] && v['ws-headers']) {
+            const opts = {}
+            opts.path = v['ws-path']
+            opts.headers = v['ws-headers']
+            v['ws-opts'] = opts
+            delete v['ws-path']
+            delete v['ws-headers']
+          }
+      })
+      return yaml.stringify(obj)
+    }
   yaml:
     prepend-rules:
       - RULE-SET,jxhrule,nanoPort  # 第三个元素需要按自己订阅修改
