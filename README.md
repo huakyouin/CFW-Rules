@@ -47,9 +47,8 @@ bypass:
 ```
 
 ## 评价
-- [星梦数据机场](https://stardream.xyz/user)涨价了，8r/月，在自定义规则后表现尚可，但我没续费了
-- [魔戒机场](https://www.mojie.cyou/)按量计价量大管饱，0.1r/1G，但是不太稳定
-- [翻墙机场](https://xn--mest5a943ag8x.net/#/knowledge)辣鸡机场，用了10个G左右把我号删了，时长掉线
+- [星梦数据机场](https://stardream.xyz/user)，8r/月，☆
+- [魔戒机场](https://www.mojie.cyou/)，0.1r/1G，☆☆
 - [nano](https://v3.nanoport.xyz/#/dashboard)目前在试大盘鸡套餐
 
 
