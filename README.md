@@ -8,7 +8,8 @@
 ```
 parsers: # array
 # - reg: ^.*$ # 匹配所有订阅
-- url: https://gfwairport.icu/api/v1/client/subscribe?token=905e00df92af82e5937c0af157f6e95b # 自己订阅的网址
+# 自己订阅的网址
+- url: https://subv2.nanoport.xyz/api/v1/client/subscribe?token=bd6477706f3d605e176258d51788c715 
   yaml:
     prepend-rules:
       - RULE-SET,jxhrule,nanoPort  # 第三个元素需要按自己订阅修改
@@ -28,6 +29,7 @@ parsers: # array
         path: ./ruleset/jxhrule2.yaml
         interval: 86400
     commands:
+      - mixed-port=12336
       - dns.enable=false                      # 不使用订阅中的dns 防止时不时断开
       - external-controller=127.0.0.1:12339     # 按自己的core端口调整
 ```
