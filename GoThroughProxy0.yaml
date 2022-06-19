@@ -12,7 +12,7 @@ payload:
   # 一些辅助网站
   
   - DOMAIN-KEYWORD,workona
-  - DOMAIN-SUFFIX,raw.githubusercontent.com
+  - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-KEYWORD,stackoverflow
   - DOMAIN-KEYWORD,v2ex
   - DOMAIN-SUFFIX,microsoft.com
