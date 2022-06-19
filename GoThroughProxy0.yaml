@@ -15,7 +15,7 @@ payload:
   - DOMAIN-SUFFIX,raw.githubusercontent.com
   - DOMAIN-KEYWORD,stackoverflow
   - DOMAIN-KEYWORD,v2ex
-  # - DOMAIN-SUFFIX,events.data.microsoft.com
+  - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,figma.com
   - DOMAIN-SUFFIX,alexlenail
   - DOMAIN-KEYWORD,pdf24
