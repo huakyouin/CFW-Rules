@@ -12,5 +12,6 @@ payload:
   - DOMAIN-SUFFIX,cdn.mileweb.cs.steampowered.com.8686c.com
   # 一些进程
   - PROCESS-NAME,ssh
-
+  # 常用网站
+  - DOMAIN-SUFFIX,overleaf.com
   
