@@ -9,13 +9,10 @@ payload:
   # 国外机场
   - DOMAIN-KEYWORD,stardream
   - DOMAIN-KEYWORD,julang
-  # 一些辅助网站
   
+  # 一些辅助网站
   - DOMAIN-KEYWORD,workona
-  - DOMAIN-SUFFIX,githubusercontent.com
-  - DOMAIN-KEYWORD,stackoverflow
   - DOMAIN-KEYWORD,v2ex
-  - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,figma.com
   - DOMAIN-SUFFIX,alexlenail
   - DOMAIN-KEYWORD,pdf24
