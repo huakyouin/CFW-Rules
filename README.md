@@ -28,9 +28,11 @@ parsers: # array
         path: ./ruleset/jxhrule2.yaml
         interval: 86400
     commands:
-      - mixed-port=12336
-      # - dns.enable=false                      # 不使用订阅中的dns 防止时不时断开
-      - external-controller=127.0.0.1:12339     # 按自己的core端口调整
+      # 按自己的core端口调整
+      # - mixed-port=12336
+      # - external-controller=127.0.0.1:12339    
+      # 订阅dns预设不佳时禁用
+      # - dns.enable=false                      
 ```
 
 ## 设置--系统代理--绕过域设置添加下列
