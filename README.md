@@ -26,13 +26,7 @@ parsers: # array
         behavior: classical
         url: "https://cdn.jsdelivr.net/gh/huakyouin/clash-rules@main/GoDirect.yaml"
         path: ./ruleset/jxhrule2.yaml
-        interval: 86400
-    commands:
-      # 按自己的core端口调整
-      # - mixed-port=12336
-      # - external-controller=127.0.0.1:12339    
-      # 订阅dns预设不佳时禁用
-      # - dns.enable=false                      
+        interval: 86400               
 ```
 
 ## 设置--系统代理--绕过域设置添加下列
