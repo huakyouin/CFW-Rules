@@ -20,10 +20,10 @@ parsers: # array
         interval: 86400               
 
 # 某一订阅走法调整 
-- url: <--复制粘贴--> 
+- url: <--复制粘贴订阅地址--> 
   yaml:
     prepend-rules:
-      - RULE-SET,jxhrule,<--复制黏贴-->  # 第三个元素需要按自己订阅修改
+      - RULE-SET,jxhrule,<--填自己订阅的代理组-->  
     mix-rule-providers:
       jxhrule: # 需要代理的常见软件列表
         type: http
