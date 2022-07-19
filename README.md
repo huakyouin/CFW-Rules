@@ -34,9 +34,11 @@ parsers: # array
         interval: 86400       
 ```
 
-## 设置--系统代理--绕过域设置添加下列
+## 锦上添花
 
-因为clash即使直连延迟也不如不开代理时，或者使用PAC模式
+因为clash即使直连延迟也不如不开代理时，所以不如提前指定某些网站不走vpn
+
+设置--系统代理--绕过域设置添加下列：
 
 ```
 bypass:
@@ -47,11 +49,6 @@ bypass:
   - "alicdn.com" # 阿里转发
   - "qq.com" # 腾讯相关软件
 ```
-
-## 评价
-- [星梦数据机场](https://stardream.xyz/user)☆，8r/月
-- [魔戒机场](https://www.mojie.cyou/)☆☆，0.1r/1G
-- [nano机场](https://v3.nanoport.xyz/#/dashboard)，目前在试大盘鸡套餐
 
 
 
