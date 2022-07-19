@@ -7,12 +7,23 @@
 
 ```
 parsers: # array
-# - url：自己订阅的网址  or   - reg: ^.*$ 匹配所有
-- url: https://subv2.nanoport.xyz/api/v1/client/subscribe?token=bd6477706f3d605e176258d51788c715 
+- reg: ^.*$     ## 匹配所有订阅
   yaml:
     prepend-rules:
-      - RULE-SET,jxhrule,nanoPort  # 第三个元素需要按自己订阅修改
       - RULE-SET,jxhrule2,DIRECT   # 不用走代理的一些网站
+    mix-rule-providers:
+      jxhrule2: # 不需代理的常见软件列表
+        type: http
+        behavior: classical
+        url: "https://cdn.jsdelivr.net/gh/huakyouin/clash-rules@main/GoDirect.yaml"
+        path: ./ruleset/jxhrule2.yaml
+        interval: 86400               
+
+# 某一订阅走法调整 
+- url: <--复制粘贴--> 
+  yaml:
+    prepend-rules:
+      - RULE-SET,jxhrule,<--复制黏贴-->  # 第三个元素需要按自己订阅修改
     mix-rule-providers:
       jxhrule: # 需要代理的常见软件列表
         type: http
@@ -20,13 +31,7 @@ parsers: # array
         url: "https://cdn.jsdelivr.net/gh/huakyouin/clash-rules@main/GoThroughProxy0.yaml"
         # url: "https://cdn.jsdelivr.net/gh/huakyouin/clash-rules@main/GoThroughProxy0.yaml"
         path: ./ruleset/jxhrule.yaml
-        interval: 86400
-      jxhrule2: # 不需代理的常见软件列表
-        type: http
-        behavior: classical
-        url: "https://cdn.jsdelivr.net/gh/huakyouin/clash-rules@main/GoDirect.yaml"
-        path: ./ruleset/jxhrule2.yaml
-        interval: 86400               
+        interval: 86400       
 ```
 
 ## 设置--系统代理--绕过域设置添加下列
