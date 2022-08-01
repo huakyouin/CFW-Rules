@@ -28,6 +28,9 @@ payload:
   - DOMAIN-KEYWORD,socialcomputing
   - DOMAIN-SUFFIX,s3.amazonaws.com
   
+  # 看动漫
+  - DOMAIN-SUFFIX,age.tv
+  
   # 游戏相关网站
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
