@@ -2,10 +2,8 @@ payload:
   # 机场
   - DOMAIN-KEYWORD,mojie
   # steam直连部分
-  - DOMAIN-SUFFIX,st.dl.eccdnx.com
-  - DOMAIN-SUFFIX,st.dl.bscstorage.net
+  - DOMAIN-KEYWORD,st.dl
   - DOMAIN-SUFFIX,dl.steam.clngaa.com
-  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
   - DOMAIN-SUFFIX,xz.pphimalayanrt.com
   - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
   - DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com
@@ -15,4 +13,6 @@ payload:
   - PROCESS-NAME,ssh
   # 常用网站
   - DOMAIN-SUFFIX,overleaf.com
+  # 看动漫
+  - DOMAIN-SUFFIX,age.tv
   
