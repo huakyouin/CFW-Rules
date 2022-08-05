@@ -9,6 +9,7 @@ payload:
   # 国外机场
   - DOMAIN-KEYWORD,stardream
   - DOMAIN-KEYWORD,julang
+  - DOMAIN-KEYWORD,xn--nlua550ns4y
   
   # 一些辅助网站
   - DOMAIN-KEYWORD,workona
