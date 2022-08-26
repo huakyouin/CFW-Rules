@@ -1,6 +1,6 @@
 payload:
   # 机场
-  - DOMAIN-KEYWORD,mojie
+#   - DOMAIN-KEYWORD,mojie
   # steam直连部分
   - DOMAIN-KEYWORD,st.dl
   - DOMAIN-SUFFIX,dl.steam.clngaa.com
