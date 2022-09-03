@@ -2,13 +2,13 @@ payload:
   # 机场
 #   - DOMAIN-KEYWORD,mojie
   # steam直连部分
-  - DOMAIN-KEYWORD,st.dl
-  - DOMAIN-SUFFIX,dl.steam.clngaa.com
-  - DOMAIN-SUFFIX,xz.pphimalayanrt.com
-  - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
-  - DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com
-  - DOMAIN-SUFFIX,cdn.mileweb.cs.steampowered.com.8686c.com
-  - DOMAIN-SUFFIX,store.steampowered.com
+#   - DOMAIN-KEYWORD,st.dl
+#   - DOMAIN-SUFFIX,dl.steam.clngaa.com
+#   - DOMAIN-SUFFIX,xz.pphimalayanrt.com
+#   - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
+#   - DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com
+#   - DOMAIN-SUFFIX,cdn.mileweb.cs.steampowered.com.8686c.com
+#   - DOMAIN-SUFFIX,store.steampowered.com
   # 一些进程
   - PROCESS-NAME,ssh
   # 常用网站
