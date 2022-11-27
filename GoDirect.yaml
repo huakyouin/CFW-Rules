@@ -1,9 +1,6 @@
 payload:
   # 机场
 #   - DOMAIN-KEYWORD,mojie
-  # steam直连部分
-#   - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
-#   - DOMAIN-SUFFIX,store.steampowered.com
   # 一些进程
   - PROCESS-NAME,ssh
   # 常用网站
