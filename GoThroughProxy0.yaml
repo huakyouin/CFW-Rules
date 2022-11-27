@@ -30,10 +30,10 @@ payload:
   - DOMAIN-SUFFIX,s3.amazonaws.com
   
   # 游戏相关网站
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-SUFFIX,steamcommunity.com
-  - DOMAIN-SUFFIX,steamgames.com
-  - DOMAIN-SUFFIX,steamusercontent.com
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steamstatic.com
+#   - DOMAIN-SUFFIX,steampowered.com
+#   - DOMAIN-SUFFIX,steamcommunity.com
+#   - DOMAIN-SUFFIX,steamgames.com
+#   - DOMAIN-SUFFIX,steamusercontent.com
+#   - DOMAIN-SUFFIX,steamcontent.com
+#   - DOMAIN-SUFFIX,steamstatic.com
   - DOMAIN-SUFFIX,akamaihd.net
