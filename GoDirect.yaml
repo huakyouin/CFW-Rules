@@ -3,6 +3,7 @@ payload:
 #   - DOMAIN-KEYWORD,mojie
   # 一些进程
   - PROCESS-NAME,ssh
+  - PROCESS-NAME, pip.exe
   # 常用网站
   - DOMAIN-SUFFIX,overleaf.com
   # 看动漫
