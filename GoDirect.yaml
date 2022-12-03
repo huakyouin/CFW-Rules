@@ -4,6 +4,7 @@ payload:
   # 一些进程
   - PROCESS-NAME,ssh
   - PROCESS-NAME, pip.exe
+  - PROCESS-NAME, conda.exe
   # 常用网站
   - DOMAIN-SUFFIX,overleaf.com
   # 看动漫
