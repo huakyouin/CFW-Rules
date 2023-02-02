@@ -9,4 +9,6 @@ payload:
   - DOMAIN-SUFFIX,overleaf.com
   # 看动漫
   - DOMAIN-SUFFIX,age.tv
+  # 游戏平台
+  - DOMAIN-SUFFIX,akamaihd.net
   
