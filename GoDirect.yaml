@@ -11,4 +11,6 @@ payload:
   - DOMAIN-SUFFIX,age.tv
   # 游戏平台
   - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,steamdb.info
+  - DOMAIN-SUFFIX,store.steampowered.com
   
