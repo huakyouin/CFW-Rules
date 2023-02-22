@@ -14,4 +14,9 @@ payload:
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,steamdb.info
   - DOMAIN-SUFFIX,store.steampowered.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,api.steampowered.com
+  - DOMAIN-SUFFIX,rmbgame.net
   
