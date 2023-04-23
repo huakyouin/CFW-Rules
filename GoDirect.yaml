@@ -21,4 +21,5 @@ payload:
   - DOMAIN-SUFFIX,steamserver.net
   - DOMAIN-SUFFIX,api.steampowered.com
   - DOMAIN-SUFFIX,rmbgame.net
-  
+  # 其他
+  - DOMAIN-SUFFIX,ai1.chagpt.fun
