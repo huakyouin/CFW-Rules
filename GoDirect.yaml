@@ -12,6 +12,7 @@ payload:
   # 看动漫
   - DOMAIN-SUFFIX,age.tv
   - DOMAIN-SUFFIX,bangumi.online
+  - DOMAIN-SUFFIX,gugufan.com
   # 游戏平台
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,steamdb.info
