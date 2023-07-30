@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,age.tv
   - DOMAIN-SUFFIX,bangumi.online
   - DOMAIN-SUFFIX,gugufan.com
+  - DOMAIN-SUFFIX,anime.girigirilove.com
   # 游戏平台
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,steamdb.info
