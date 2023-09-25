@@ -25,3 +25,5 @@ payload:
   - DOMAIN-SUFFIX,rmbgame.net
   # 其他
   - DOMAIN-SUFFIX,ai1.chagpt.fun
+  # 机场
+  - DOMAIN-SUFFIX,nano.nachoneko.cn
