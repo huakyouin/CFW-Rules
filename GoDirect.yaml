@@ -2,19 +2,19 @@ payload:
   # 机场
 #   - DOMAIN-KEYWORD,mojie
   - DOMAIN-SUFFIX,nano.nachoneko.cn
-  # 一些进程
+  # 进程
   - PROCESS-NAME,ssh
   - PROCESS-NAME, pip.exe
   - PROCESS-NAME, conda.exe
-  # 常用网站
+  # 写作网站
   - DOMAIN-SUFFIX,overleaf.com
   - DOMAIN-SUFFIX,deepl.com
-  - DOMAIN-SUFFIX,subv5.nanoport.xyz
-  # 看动漫
+  # 看视频
   - DOMAIN-SUFFIX,age.tv
   - DOMAIN-SUFFIX,bangumi.online
   - DOMAIN-SUFFIX,gugufan.com
   - DOMAIN-SUFFIX,anime.girigirilove.com
+  - DOMAIN-SUFFIX,bilibili.com
   # 游戏平台
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,steamdb.info
@@ -22,12 +22,6 @@ payload:
   # - DOMAIN-SUFFIX,steamstatic.com
   # - DOMAIN-SUFFIX,steamserver.net
   - DOMAIN-SUFFIX,steamcontent.com
-  
-  # 其他
-  - DOMAIN-SUFFIX,ai1.chagpt.fun
   # 购物比价
   - DOMAIN-SUFFIX,gwdang.com
-  # 视频
-  - DOMAIN-SUFFIX,bilibili.com
-  - DOMAIN-SUFFIX,dmla3.com
 
